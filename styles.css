@@ -47,15 +47,17 @@ body {
 }
 
 .intro-img {
-  height: 550px;
-  width: auto;
-  padding: 25% 10% 5% 0%;
+  height: auto;
+  max-height: 550px;
+  width: 100%;
+  padding: 15% 10% 5% 10%;
   display: flex;
   float: right;
+  margin-top: 10%;
 }
 
 .heading {
-  padding-top: 35%;
+  padding: 35% 5% 0 5%;
   color: white;
 }
 .heading h1 {
@@ -123,10 +125,12 @@ body {
 }
 
 #about-us img {
-  height: 350px;
-  width: auto;
-  margin-top: 15%;
+  height: auto;
+  max-height: 500px;
+  width: 100%;
   padding: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .about-text {
@@ -164,8 +168,11 @@ body {
   width: 100%;
 }
 .contactus-img {
-  height: 200px;
-  margin: 15% 10%;
+  height: auto;
+  max-height: 300px;
+  width: 100%;
+  margin: 15% 0;
+  padding: 0 10%;
 }
 
 .contact-form {
